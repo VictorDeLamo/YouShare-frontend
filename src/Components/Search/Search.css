@@ -1,0 +1,62 @@
+/* src/Components/Magazine/Magazine.css */
+
+.magazine {
+    padding: 20px;
+  }
+  
+  .magazine-header {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .magazine-header h2 {
+    margin: 0 0 10px;
+  }
+  
+  .magazine-header .subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .magazine-header .subscribe span {
+    margin-right: 10px;
+  }
+  
+  .magazine-header button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .magazine-header button:hover {
+    background-color: #0056b3;
+  }
+  
+  .magazine-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .magazine-content .about-community {
+    margin-bottom: 20px;
+  }
+  
+  .magazine-content .about-community h3 {
+    margin: 0 0 10px;
+  }
+  
+  .magazine-content .about-community p {
+    margin: 0;
+  }
+  

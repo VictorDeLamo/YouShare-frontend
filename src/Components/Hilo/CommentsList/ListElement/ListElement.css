@@ -1,0 +1,116 @@
+/* src/Components/Hilo/CommentsList/ListElement/ListElement.css */
+
+.list-element {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    position: relative; /* Necesario para posicionar elementos absolutos dentro de este contenedor */
+    display: flex;
+    flex-direction: column;
+}
+
+.list-element .reactions {
+    position: absolute;
+    top: 20px; /* Ajusta según sea necesario */
+    right: 20px; /* Ajusta según sea necesario */
+    display: flex;
+    align-items: center;
+}
+
+.list-element .reactions button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    color: gray;
+    font-size: 14px;
+}
+
+.list-element .reactions button:hover {
+    color: #000;
+}
+
+.list-element .reactions .like-button.active .like-arrow {
+    color: green;
+}
+
+.list-element .reactions .dislike-button.active .dislike-arrow {
+    color: red;
+}
+
+.list-element .actions .boost-button.active {
+    background: rgba(0, 200, 13, 0.514);
+}
+
+.list-element .content {
+    margin-bottom: 10px;
+}
+
+.list-element .content p {
+    margin: 0 0 10px;
+}
+
+.list-element .content small {
+    display: block;
+    margin-bottom: 10px;
+    color: gray;
+    text-decoration: none;
+}
+
+.list-element .content .author-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+.list-element .content .author-link:hover {
+    color: #970081;
+}
+
+.list-element .actions {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.list-element .actions button {
+    background: #5e4b7a;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.list-element .actions button:hover {
+    background: #c8e0e7;
+}
+
+.list-element .actions .edit-button, .list-element .actions .delete-button, .list-element .actions .boost-button, .list-element .actions .reply-button {
+    background: transparent; /* Fondo transparente */
+    padding: 0.5; /* Sin relleno */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Puntero de cursor */
+    color: black;
+}
+
+.like-button .like-count,
+.dislike-button .dislike-count {
+    margin-right: 5px;
+}
+
+.like-arrow,
+.dislike-arrow {
+    font-size: 18px;
+}
+
+.replies {
+    margin-left: 20px; /* Ajusta este valor según tus necesidades */
+    padding-left: 20px;
+    border-left: 2px solid #ddd;
+}

@@ -1,0 +1,16 @@
+/* src/Components/Layout/NavBar2.css */
+
+.navbar2 {
+  background-color: #91bad2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 25px;
+  padding-right: 35px;
+  
+}
+
+.menu2{
+  background-color: #91bad2;
+}

@@ -1,0 +1,30 @@
+/* src/Components/Hilo/FiltroComment.css */
+
+.filtro-comment {
+  display: flex;
+  justify-content: flex-start; /* Alinea el botón a la izquierda */
+  margin-bottom: 20px;
+}
+
+.filter-dropdown-button {
+  background: transparent; /* Fondo transparente */
+  border: none; /* Sin borde */
+  cursor: pointer; /* Puntero de cursor */
+  color: rgb(255, 255, 255); /* Color del icono y texto */
+  font-size: 16px; /* Tamaño del texto */
+  padding: 5px 10px; /* Relleno para hacer que el botón sea clicable */
+  display: flex;
+  align-items: center;
+}
+
+.filter-dropdown-button:hover {
+  color: black; /* Color del icono y texto al pasar el ratón */
+}
+
+.filter-button.active {
+  background: #83e6f7;
+}
+
+.filter-button:hover {
+  background: #e0e0e0;
+}

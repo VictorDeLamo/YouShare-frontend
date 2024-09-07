@@ -1,0 +1,144 @@
+.hilo-list-element {
+  background-color: rgb(233, 243, 251);
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.hilo-list-element .reactions {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.hilo-list-element .reactions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  color: gray;
+  font-size: 20px;
+}
+
+.hilo-list-element .reactions button:hover {
+  color: #000;
+}
+
+.hilo-list-element .reactions .count {
+  margin-left: 5px;
+  font-size: 16px;
+  color: gray;
+}
+
+.hilo-list-element .like-button.active .like-arrow {
+  color: green;
+}
+
+.hilo-list-element .dislike-button.active .dislike-arrow {
+  color: red;
+}
+
+.hilo-list-element .hilo-actions .boost-button.active {
+  background: rgba(0, 200, 13, 0.514);
+}
+
+.hilo-list-element .hilo-vote {
+  display: none;
+}
+
+.hilo-list-element .hilo-content {
+  flex: 1;
+}
+
+.hilo-list-element .hilo-content h2 {
+  margin: 0 0 10px;
+}
+
+.hilo-list-element .hilo-content .title-link {
+  font-size: 24px; /* Aumenta el tamaño de la fuente */
+  font-weight: bold; /* Hace que el texto sea negrita */
+  color: black; /* Hereda el color del elemento padre */
+  text-decoration: none; /* Sin subrayado */
+}
+
+.hilo-list-element .hilo-content .title-link:hover {
+  color: #1890ff; /* Color del texto al hacer hover */
+}
+
+.hilo-list-element .hilo-content .author-link {
+  color: black; /* Hereda el color del elemento padre */
+  text-decoration: none; /* Sin subrayado */
+}
+
+.hilo-list-element .hilo-content .author-link:hover {
+  color: #7c006a; /* Color del texto al hacer hover */
+}
+
+.hilo-list-element .hilo-content .magazine-link {
+  color: black; /* Hereda el color del elemento padre */
+  text-decoration: none; /* Sin subrayado */
+}
+
+.hilo-list-element .hilo-content .magazine-link:hover {
+  color: #7c006a; /* Color del texto al hacer hover */
+}
+
+.hilo-list-element .hilo-content p {
+  margin: 20px 15px 10px;
+}
+
+.hilo-list-element .hilo-content small {
+  margin: 15px 15px 10px;
+  display: block;
+  margin-bottom: 10px;
+  color: gray;
+}
+
+.hilo-list-element .hilo-actions {
+  margin: 20px 0px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.hilo-list-element .hilo-actions .comments-link {
+  text-decoration: none;
+  color:#000;
+}
+
+.hilo-list-element .hilo-actions .comments-link:hover {
+  color:#7c006a
+}
+
+.hilo-list-element .hilo-actions button {
+  background: #5e4b7a;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.hilo-list-element .hilo-actions button:hover {
+  background: #c8e0e7;
+}
+
+.hilo-list-element .hilo-actions .boost-button, .hilo-list-element .hilo-actions .edit-button, .hilo-list-element .hilo-actions .delete-button{
+  background: transparent; /* Fondo transparente */
+  padding: 0.5; /* Sin relleno */
+  border: none; /* Sin borde */
+  cursor: pointer; /* Puntero de cursor */
+  color: black;
+}
+
+.hilo-list-element .hilo-actions span {
+  margin-right: 10px;
+}

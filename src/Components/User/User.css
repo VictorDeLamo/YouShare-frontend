@@ -1,0 +1,92 @@
+/* src/Components/User/User.css */
+
+.user-profile {
+    padding: 20px;
+  }
+  
+  .user-header {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .cover-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .user-info {
+    margin-top: -60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .avatar-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid white;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .user-info h2 {
+    margin: 10px 0;
+  }
+  
+  .user-actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .user-actions button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .user-actions button:hover {
+    background-color: #0056b3;
+  }
+  
+  .user-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .tabs {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .tabs li {
+    cursor: pointer;
+    padding: 10px 20px;
+    color: #007bff;
+  }
+  
+  .tabs .active {
+    border-bottom: 2px solid #007bff;
+  }
+  
+  .tab-content h3 {
+    margin-top: 0;
+  }
+  

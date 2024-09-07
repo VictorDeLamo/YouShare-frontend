@@ -1,0 +1,29 @@
+/* src/Components/Hilo/ListElement/EditForm.css */
+
+.edit-form {
+    margin-top: 10px;
+  }
+  
+  .edit-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  .edit-button {
+    background: #5e4b7a;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .edit-button:hover {
+    background: #46355a;
+  }
+  

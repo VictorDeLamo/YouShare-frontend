@@ -1,0 +1,52 @@
+/* src/Components/Magazine/MagazineList.css */
+.link-title {
+  color: black;
+  text-decoration: none;
+  font-weight: bold; 
+}
+
+.magazine-list {
+    padding: 20px;
+  }
+  
+  .magazine-list h2 {
+    text-align: center;
+    color: #800000;
+  }
+  
+  .magazine-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .magazine-list th, .magazine-list td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .magazine-list th {
+    cursor: pointer;
+  }
+  
+  .magazine-list th:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .magazine-list tr:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .magazine-list button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .magazine-list button:hover {
+    background-color: #0056b3;
+  }
+  
